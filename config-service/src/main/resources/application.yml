@@ -10,5 +10,5 @@ spring:
         native:
           search-locations: file:///P:/Dev/Project/MSA
         git:
-          uri: file:///P:/Dev/Project/MSA
+          uri: https://github.com/jaesin463/msa-study.git
           default-label: master
