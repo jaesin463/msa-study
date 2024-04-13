@@ -52,11 +52,11 @@ public class WebSecurity {
 //        http.csrf(AbstractHttpConfigurer::disable);
 
     http.authorizeHttpRequests((authz) -> authz
-//                .requestMatchers(new AntPathRequestMatcher("/actuator/**")).permitAll()
 //                .requestMatchers(new AntPathRequestMatcher("/h2-console/**")).permitAll()
 //                .requestMatchers(new AntPathRequestMatcher("/users", "POST")).permitAll()
 //                .requestMatchers(new AntPathRequestMatcher("/h2-console/**")).permitAll()
 //                        .requestMatchers("/**").access(this::hasIpAddress)
+                .requestMatchers(new AntPathRequestMatcher("/actuator/**")).permitAll()
                 .requestMatchers("/**").access(
                     new WebExpressionAuthorizationManager("hasIpAddress('127.0.0.1') or hasIpAddress('172.30.1.48')"))
                 .anyRequest().authenticated()
