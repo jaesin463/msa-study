@@ -10,5 +10,7 @@ spring:
         native:
           search-locations: file:///P:/Dev/Project/MSA
         git:
-          uri: https://github.com/jaesin463/msa-study.git
+          uri: https://github.com/jaesin463/msa-study/tree/master/config-service/src/main/resources
           default-label: master
+          username: jaesin463@gmail.com
+          password: wotls0809!
