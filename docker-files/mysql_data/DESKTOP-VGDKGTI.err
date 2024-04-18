@@ -1,0 +1,65 @@
+2024-04-15 14:09:52 0 [Note] Starting MariaDB 11.3.2-MariaDB source revision 068a6819eb63bcb01fdfa037c9bf3bf63c33ee42 as process 21348
+2024-04-15 14:09:52 0 [Note] InnoDB: The first data file './ibdata1' did not exist. A new tablespace will be created!
+2024-04-15 14:09:52 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-04-15 14:09:52 0 [Note] InnoDB: Number of transaction pools: 1
+2024-04-15 14:09:52 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-04-15 14:09:52 0 [Note] InnoDB: Initializing buffer pool, total size = 20.000MiB, chunk size = 1.000MiB
+2024-04-15 14:09:52 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-04-15 14:09:53 0 [Note] InnoDB: Setting file './ibdata1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-04-15 14:09:53 0 [Note] InnoDB: File './ibdata1' size is now 12.000MiB.
+2024-04-15 14:09:53 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2024-04-15 14:09:53 0 [Note] InnoDB: Data file .//undo001 did not exist: new to be created
+2024-04-15 14:09:53 0 [Note] InnoDB: Setting file .//undo001 size to 10.000MiB
+2024-04-15 14:09:53 0 [Note] InnoDB: Database physically writes the file full: wait...
+2024-04-15 14:09:53 0 [Note] InnoDB: Data file .//undo002 did not exist: new to be created
+2024-04-15 14:09:53 0 [Note] InnoDB: Setting file .//undo002 size to 10.000MiB
+2024-04-15 14:09:53 0 [Note] InnoDB: Database physically writes the file full: wait...
+2024-04-15 14:09:53 0 [Note] InnoDB: Data file .//undo003 did not exist: new to be created
+2024-04-15 14:09:53 0 [Note] InnoDB: Setting file .//undo003 size to 10.000MiB
+2024-04-15 14:09:53 0 [Note] InnoDB: Database physically writes the file full: wait...
+2024-04-15 14:09:53 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2024-04-15 14:09:53 0 [Note] InnoDB: Opened 3 undo tablespaces
+2024-04-15 14:09:53 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+2024-04-15 14:09:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-04-15 14:09:53 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-04-15 14:09:53 0 [Note] InnoDB: log sequence number 0; transaction id 3
+2024-04-15 14:09:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-04-15 14:09:53 0 [Note] mysqld.exe: SSPI: using principal name 'localhost', mech 'Negotiate'
+2024-04-15 14:53:24 0 [Note] Starting MariaDB 11.3.2-MariaDB source revision 068a6819eb63bcb01fdfa037c9bf3bf63c33ee42 as process 20640
+2024-04-15 14:53:24 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-04-15 14:53:24 0 [Note] InnoDB: Number of transaction pools: 1
+2024-04-15 14:53:24 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2024-04-15 14:53:24 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+2024-04-15 14:53:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-04-15 14:53:24 0 [Note] InnoDB: File system buffers for log disabled (block size=4096 bytes)
+2024-04-15 14:53:24 0 [Note] InnoDB: End of log at LSN=47763
+2024-04-15 14:53:24 0 [Note] InnoDB: Opened 3 undo tablespaces
+2024-04-15 14:53:24 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+2024-04-15 14:53:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+2024-04-15 14:53:24 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+2024-04-15 14:53:24 0 [Note] InnoDB: log sequence number 47763; transaction id 14
+2024-04-15 14:53:24 0 [Note] InnoDB: Loading buffer pool(s) from P:\dev\project\msa\mariadb-11.3.2-winx64\data\ib_buffer_pool
+2024-04-15 14:53:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-04-15 14:53:24 0 [Note] mysqld.exe: SSPI: using principal name 'localhost', mech 'Negotiate'
+2024-04-15 14:53:24 0 [Note] InnoDB: Buffer pool(s) load completed at 240415 14:53:24
+2024-04-15 14:53:24 0 [Note] Server socket created on IP: '::'.
+2024-04-15 14:53:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-04-15 14:53:24 0 [Note] mysqld.exe: Event Scheduler: Loaded 0 events
+2024-04-15 14:53:24 0 [Note] P:\Dev\Project\MSA\mariadb-11.3.2-winx64\bin\mysqld.exe: ready for connections.
+Version: '11.3.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2024-04-15 14:59:40 3 [Warning] Aborted connection 3 to db: 'unconnected' user: 'ODBC' host: 'localhost' (Got an error reading communication packets)
+2024-04-15 15:00:30 4 [Warning] Aborted connection 4 to db: 'unconnected' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-16  8:41:14 5 [Warning] Aborted connection 5 to db: 'mydb' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2024-04-17  1:30:57 12 [Warning] Access denied for user 'Jaesin'@'localhost' (using password: NO)
+2024-04-17  1:33:09 15 [Warning] Access denied for user 'ODBC'@'localhost' (using password: YES)
+2024-04-17  1:41:33 17 [Warning] Aborted connection 17 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-17  1:41:33 10 [Warning] Aborted connection 10 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-17  9:00:15 19 [Warning] Aborted connection 19 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-17  9:01:19 21 [Warning] Aborted connection 21 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-17  9:01:43 23 [Warning] Aborted connection 23 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-17  9:31:16 14 [Warning] Aborted connection 14 to db: 'mydb' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2024-04-17 17:35:19 29 [Warning] Aborted connection 29 to db: 'mydb' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2024-04-17 17:35:25 16 [Warning] Aborted connection 16 to db: 'mydb' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2024-04-17 21:43:23 27 [Warning] Aborted connection 27 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2024-04-18  7:25:37 31 [Warning] Aborted connection 31 to db: 'mydb' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2024-04-18  9:15:02 528 [Warning] Aborted connection 528 to db: 'mydb' user: 'root' host: 'localhost' (Got timeout reading communication packets)

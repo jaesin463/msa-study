@@ -19,6 +19,9 @@ spring:
         git:
           uri: https://github.com/jaesin463/msa-study.git
           default-label: master
+          search-paths:
+            - 'native-file-repo'
+            - '{application}'
 #          username:
 #          password:
 
