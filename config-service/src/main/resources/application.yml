@@ -4,13 +4,26 @@ server:
 spring:
   application:
     name: config-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  profiles:
+    active: native
   cloud:
     config:
       server:
         native:
-          search-locations: file:///P:/Dev/Project/MSA
+          search-locations: file:///P:/Dev/Project/MSA/native-file-repo
         git:
-          uri: https://github.com/jaesin463/msa-study/tree/master/config-service/src/main/resources
+          uri: https://github.com/jaesin463/msa-study.git
           default-label: master
-          username: jaesin463@gmail.com
-          password: wotls0809!
+#          username:
+#          password:
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh

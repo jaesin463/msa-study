@@ -1,0 +1,18 @@
+#token:
+#  expiration_time: 864000000
+#  secret: n_user_service_012345678901234567890123456789012345678901234567890123456789
+
+gateway:
+  ip: 192.168.0.101
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQA7IHzSPKreSCJKa8GxQ0GvUN+nijSO19+Jt0EM6UWjzc1waYj1XI6XwPpg4Fw+9qJ5K7brLP2acjGeZDNKR8LvAxM8+p49yJwYQz2OtaB9MBJT8Q51pqipSOZlWCYHZX5Q5aroR9h878wd90Qe77rHPzRwnFUFY2vEUHyGKTv+AP3ph6phc3dLYCSSjnH6liQb/MkWY4Rjsy2zE4Rnhap/0eTJliDntdtQmEs/6X/X70ClCT9urobRyIdAZZB038WI+LtggsJGRutY1bn8Ff9tHZK+GoxWv5I4ihAbOt4nEZd9xfqM2l9prmTye76KHESRzId6GI2PQBNztJYH1xtBQOv+8grqTc+OTNfIooj7uqbhbsnRWepUd1Dv2vYcMqU='
+
+order-service:
+  url: http://order-service/order-service/%s/orders
+  exception:
+    orders_is_empty: User's order is empty.
